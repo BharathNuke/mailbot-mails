@@ -4,7 +4,7 @@ let datafire = require('datafire');
 module.exports = new datafire.Action({
   description: "parse array of feeds to mail body",
   inputs: [{
-    type: "object",
+    type: "array",
     title: "feeds"
   }],
   handler: async (input, context) => {    
