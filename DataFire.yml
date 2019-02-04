@@ -13,3 +13,5 @@ paths:
         labelIds: []
         userId: me
       accounts: {}
+actions:
+  addition: ./actions/addition.js
