@@ -19,3 +19,4 @@ paths:
 actions:
   addition: ./actions/addition.js
   parse_feeds: ./actions/parse_feeds.js
+  send_feed: ./actions/send_feed.js

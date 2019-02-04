@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "@datafire/reddit_rss": "4.0.0",
-    "@datafire/google_gmail": "5.1.0"
-  }
+    "@datafire/google_gmail": "5.1.0",
+    "@datafire/cnn_rss": "4.0.0",
+    "@datafire/nytimes_rss": "4.0.0"
+  },
+  "name": "mailbot-mails",
+  "version": "1.0.0"
 }
