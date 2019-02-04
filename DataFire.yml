@@ -20,3 +20,8 @@ actions:
   addition: ./actions/addition.js
   parse_feeds: ./actions/parse_feeds.js
   send_feed: ./actions/send_feed.js
+tasks:
+  news_feed:
+    schedule: rate(1 hour)
+    action: send_feed
+    accounts: {}
