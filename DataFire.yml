@@ -18,3 +18,4 @@ paths:
       action: addition
 actions:
   addition: ./actions/addition.js
+  parse_feeds: ./actions/parse_feeds.js
