@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@datafire/reddit_rss": "4.0.0",
+    "@datafire/google_gmail": "5.1.0"
+  }
+}

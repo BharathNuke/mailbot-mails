@@ -1,0 +1,15 @@
+options:
+  cors: true
+paths:
+  /reddit/links:
+    get:
+      action: reddit_rss/subreddit
+      input:
+        subreddit: sports
+  /mail:
+    get:
+      action: google_gmail/users.messages.list
+      input:
+        labelIds: []
+        userId: me
+      accounts: {}
