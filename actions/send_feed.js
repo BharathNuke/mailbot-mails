@@ -15,6 +15,21 @@ module.exports = new datafire.Action({
         nytimes_feed
       ],
     }, context);
-    return body;
+    let encodedMessage = await google_gmail.buildMessage({
+      to: [
+        "bharat.sosio@gmail.com",
+        "twitterbot.sosio@gmail.com"
+      ],
+      from: "bharat.sosio@gmail.com",
+      subject: "News Feeds",
+      body: body,
+    }, context);
+    let message = await google_gmail.users.messages.send({
+      userId: "me",
+      body: {
+        raw: encodedMessage,
+      },
+    }, context);
+    return message;
   },
 });
