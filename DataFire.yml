@@ -18,7 +18,7 @@ paths:
       action: addition
   /on_calendar:
     post:
-      action: addition
+      action: on_calendar
 actions:
   addition: ./actions/addition.js
   parse_feeds: ./actions/parse_feeds.js
